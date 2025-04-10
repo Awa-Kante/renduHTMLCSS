@@ -72,9 +72,11 @@ width: 100px;;
 
 }
 .icon98px {
-  width: 98px;
-  height: 98px;
-  object-fit: cover;
+  width: 188px;
+  height: 120px;
+  border-radius: 10px;
+  
+ 
 }
 
 #fondvert{
@@ -83,14 +85,61 @@ width: 100px;;
     text-align: center;
     border: 1px solid rgb(100, 136, 46) ;
     height: 100px;
+    align-items: center;
 
-    h
+    
 }
 
 #taille{
-  justify-content: center;
-
-    color: white;
-    width: 100%;
+   color: white;
+   width: 100%;
 }
 
+main{
+  display: flex;
+  flex-direction: column;
+
+}
+
+h2{
+  text-align: center;
+ 
+}
+
+#pad{
+  padding: 45px;
+}
+
+.card{
+  flex-direction:column ;
+  justify-content: center;
+  background-color: white;
+  /*height:355px*/
+  width: 25%;
+  padding: 10px;
+  /*marge des cotés qui est à définir*/
+ /* margin:50px auto;*/
+  /* border radius pour arrondir les angles*/
+ margin: 10px;
+  border-radius: 10px;
+  text-align: center;
+  /*ombre*/
+  box-shadow: 0px 0px 19px 1px grey;
+
+
+}
+
+article{
+  display: flex;
+  flex-direction: column;
+
+  h5{ 
+    text-align: left;
+    padding: 10px;
+  }
+}
+
+#placement{
+  display: flex;
+  justify-content: center;
+}
