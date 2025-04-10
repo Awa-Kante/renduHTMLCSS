@@ -48,7 +48,7 @@ width: 100px;;
     background-color: #b9a496;
   }
 
-  
+
 #divSec{
   align-items: center;
     display: flex;
@@ -76,3 +76,21 @@ width: 100px;;
   height: 98px;
   object-fit: cover;
 }
+
+#fondvert{
+  display: flex;
+  background-color: rgb(100, 136, 46);
+    text-align: center;
+    border: 1px solid rgb(100, 136, 46) ;
+    height: 100px;
+
+    h
+}
+
+#taille{
+  justify-content: center;
+
+    color: white;
+    width: 100%;
+}
+
