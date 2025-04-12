@@ -1,17 +1,17 @@
 * {
   margin: 0px;
   padding: 0px;
- 
 }
 
 body {
   font-family: "Karla", sans-serif;
   line-height: auto;
+  background-color: rgb(252, 252, 248);
 }
 
 nav {
   display: flex;
-  background-color: rgb(241, 241, 227);
+
   justify-content: space-between;
   align-items: center;
 }
@@ -21,125 +21,208 @@ ul {
   list-style-type: none;
 }
 
-ul a{
-text-decoration:none ;
-color: black;
+ul a {
+  text-decoration: none;
+  color: black;
 }
 
-ul li{
-width: 100px;;
+ul li {
+  width: 100px;
 }
 
-#divintro{
-    display: flex;
-
-}
-
-#introimg{
-    width: 50%;
-}
-
-#artintro{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #b9a496;
-  }
-
-
-#divSec{
-  align-items: center;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    max-width: 800px;
-    margin: 80px auto;
-    gap: 32px;
-}
-#figure{
-  display: flex
-  ;
-      width: 100%;
-      justify-content: center;
-      gap: 36px;
-}
-
-.icone{
-  border: solid 1px #450a0a;
-    padding: 16px;
-
-}
-.icon98px {
-  width: 188px;
-  height: 120px;
-  border-radius: 10px;
-  
- 
-}
-
-#fondvert{
+#divintro {
   display: flex;
-  background-color: rgb(100, 136, 46);
-    text-align: center;
-    border: 1px solid rgb(100, 136, 46) ;
-    height: 100px;
-    align-items: center;
 
-    
 }
 
-#taille{
-   color: white;
-   width: 100%;
+#introimg {
+  width: 50%;
+  height: 300px;
 }
 
-main{
+#artintro {
+  width: 50%;
+  height: 300px;
   display: flex;
   flex-direction: column;
-
+  justify-content: center;
+  align-items: center;
+  background-color: #b9a496;
 }
 
 h2{
+padding-top: 10px;
+}
+#position {
+  text-align: left;
+}
+
+#divSec {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
   text-align: center;
- 
+  max-width: 800px;
+  margin: 30px auto;
+  gap: 45px;
 }
 
-#pad{
-  padding: 45px;
-}
-
-.card{
-  flex-direction:column ;
+#figure {
+  display: flex;
+  width: 100%;
   justify-content: center;
-  background-color: white;
-  /*height:355px*/
-  width: 25%;
-  padding: 10px;
-  /*marge des cotés qui est à définir*/
- /* margin:50px auto;*/
-  /* border radius pour arrondir les angles*/
- margin: 10px;
-  border-radius: 10px;
-  text-align: center;
-  /*ombre*/
-  box-shadow: 0px 0px 19px 1px grey;
+  justify-content: space-around;
+}
 
+.icone {
+  border: solid 1px #450a0a;
+  padding: 16px;
 
 }
 
-article{
+section{
+  display: flex;
+    align-items: center;
+}
+
+#fondvert {
+  text-align: center;
+  width: 100%;
+}
+
+#taille {
+  background-color: rgb(100, 136, 46);
+  color: white;
+  width: 100%;
+  padding: 20px;
+}
+
+main {
   display: flex;
   flex-direction: column;
 
-  h5{ 
-    text-align: left;
-    padding: 10px;
-  }
 }
 
-#placement{
+h2 {
+  text-align: center;
+
+}
+
+#pad {
+  padding:  25px;
+}
+
+.card {
+  flex-direction: column;
+  background-color: rgb(252, 252, 248);
+  /*height:355px*/
+  width: 14%;
+  padding: 10px;
+
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 6px -1px grey;
+  text-align: left;
+
+
+}
+
+.imgproduit {
+  width: 100%;
+  height: 120px;
+}
+
+h5 {
+  margin-block: 10px;
+}
+
+
+p {
+  font-size: 11px;
+  margin-block: 10px;
+}
+
+#green {
+  color: rgb(100, 136, 46);
+  font-size: 13px;
+}
+
+button {
+  background-color: rgb(100, 136, 46);
+  border: none;
+  width: 110px;
+  height: 30px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  color: aliceblue;
+}
+
+
+article {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+#placement {
   display: flex;
   justify-content: center;
 }
+
+
+#formulaire {
+  flex-direction: column;
+  align-items: center;
+  height: 250px;
+
+}
+
+
+form {
+
+ padding: 0px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 6px -1px grey;
+  display: flex;
+  width: 600px;
+ 
+
+}
+
+.field {
+
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-direction: column;
+align-items: center;
+}
+
+form ul li{
+
+  padding: 10px;
+}
+
+textarea{
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 5px;
+  margin: 5px 0;}
+
+  button{
+   align-items: center;
+  }
+
+  footer{
+
+    text-align: center;
+    padding-top: 130px;
+    padding-bottom: 3px;
+  }
+
+  #fin{
+
+    background-color: #450a0a;
+    color: aliceblue;
+  }
