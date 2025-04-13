@@ -223,6 +223,70 @@ textarea{
 
   #fin{
 
-    background-color: #450a0a;
+    background-color: #b9a496;
     color: aliceblue;
+    text-align: center;
+  }
+
+  #train{
+
+    text-align:left
+    display: flex;
+    justify-content: center;
+    margin-block: 50px;
+  }
+
+  #back{
+
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  #chien{
+padding: 30px;
+
+  }
+
+#pomme{
+display: flex;
+justify-content: center;
+
+
+}
+#rail{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+  #bonbon{
+text-align: center;
+ width: 500px;
+ height: 200px;
+padding-left: 60px;
+padding-right: 40px;
+padding-bottom: 50px;
+align-items: center;
+  }
+
+  #eau{
+    text-align: left
+  
+  }
+
+  #gateau{
+    display: flex;
+  }
+
+  #cookie{
+
+    display: flex;
+    padding: 30px;
+    align-items: center;
+  }
+
+  #poire{
+padding-right:
   }
